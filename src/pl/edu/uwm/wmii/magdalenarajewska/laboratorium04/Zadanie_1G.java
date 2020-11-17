@@ -26,6 +26,5 @@ public class Zadanie_1G {
         String napis = sc.nextLine();
         String napis2 = nice(napis);
         System.out.println(napis2);
-
     }
 }

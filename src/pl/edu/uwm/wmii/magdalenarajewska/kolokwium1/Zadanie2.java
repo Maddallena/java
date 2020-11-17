@@ -1,6 +1,8 @@
+
 package pl.edu.uwm.wmii.magdalenarajewska.kolokwium1;
 
 public class Zadanie2 {
+
     public static String delete(String str, char c){
         int pierwszy = 0;
         StringBuffer a = new StringBuffer(str);
@@ -8,13 +10,12 @@ public class Zadanie2 {
             if(a.charAt(i) == c){
                 pierwszy =+ 1;
             }
-            if(pierwszy > 1 && str.charAt(i) == c){
-                a.replace("c", "");
-            }
+         if(pierwszy > 1 && str.charAt(i) == c){
+
+         }
         }
         return a.toString();
     }
-    public static void main(String[] args) {
-
+   public static void main(String[] args) {
     }
 }

@@ -22,10 +22,11 @@ public class Pracownik8 extends Osoba8 {
 
     public String getOpis()
     {
-        return String.format("pracownik z pensją %.2f zł", pobory);
+        return String.format("pracownik z pensją %.2f zł, ", pobory)+("zatrudniony w dniu: " + getDataZatrudnienia());
     }
 
     public LocalDate getDataZatrudnienia() {
         return dataZatrudnienia;
     }
+
 }
