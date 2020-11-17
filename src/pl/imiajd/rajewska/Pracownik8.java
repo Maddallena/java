@@ -29,4 +29,5 @@ public class Pracownik8 extends Osoba8 {
         return dataZatrudnienia;
     }
 
+
 }

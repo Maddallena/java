@@ -8,6 +8,7 @@ public class Skrzypce extends Instrument {
         super(producent, rokProdukcji);
     }
 
+
     public String dzwiek() {
         return "Dźwięk skrzypiec.";
     }

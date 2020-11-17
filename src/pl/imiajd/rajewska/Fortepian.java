@@ -12,6 +12,7 @@ public class Fortepian extends Instrument{
         return "Dźwięk fortepianu.";
     }
 
+
     public String toString(){
         return "Fortepian: " +
                 "producent: " + getProducent() +

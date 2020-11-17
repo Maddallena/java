@@ -23,6 +23,7 @@ public class Zadanie1 {
             if(p.getPlec() == true){
                 System.out.println("kobieta");
             }
+
             else{
                 System.out.println("mężczyzna");
             }

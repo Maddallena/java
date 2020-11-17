@@ -40,4 +40,5 @@ public abstract class Osoba8 {
     public boolean getPlec() {
         return plec;
     }
+
 }

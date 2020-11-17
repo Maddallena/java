@@ -13,6 +13,7 @@ public class Student8 extends Osoba8 {
         this.kierunek = kierunek;
     }
 
+
     public String getOpis()
     {
         return "kierunek studiów: " + kierunek + "mający średnią ocen: " + getSredniaOcen();
