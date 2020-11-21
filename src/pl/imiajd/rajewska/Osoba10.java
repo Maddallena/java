@@ -34,5 +34,11 @@ public class Osoba10 implements Cloneable, Comparable<Osoba10> {
                 Objects.equals(dataUrodzenia, osoba10.dataUrodzenia);
     }
 
+    public String getNazwisko() {
+        return nazwisko;
+    }
 
+    public LocalDate getDataUrodzenia() {
+        return dataUrodzenia;
+    }
 }
