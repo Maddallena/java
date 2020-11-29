@@ -11,6 +11,8 @@ public class Flet extends Instrument{
     public String dzwiek() {
         return "Dźwięk fletu.";
     }
+
+    @Override
     public String toString(){
         return "Flet: " +
                 "producent: " + getProducent() +

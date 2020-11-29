@@ -17,6 +17,7 @@ public class Osoba {
         return rokUrodzenia;
     }
 
+    @Override
     public String toString(){
         return "Osoba: " + nazwisko + "rok urodzenia: " + rokUrodzenia;
     }

@@ -51,6 +51,7 @@ public class IntegerSet {
         }
     }
 
+    @Override
     public String toString() {
         StringBuffer str = new StringBuffer();
         for (int i = 0; i < tab.length; i++){
@@ -62,7 +63,7 @@ public class IntegerSet {
         return str.toString();
     }
 
-
+    @Override
     public boolean equals(Object other) {
         if (this == other) return true;
         if (other == null || getClass() != other.getClass()) return false;

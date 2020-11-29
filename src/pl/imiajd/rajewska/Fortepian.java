@@ -12,7 +12,7 @@ public class Fortepian extends Instrument{
         return "Dźwięk fortepianu.";
     }
 
-
+    @Override
     public String toString(){
         return "Fortepian: " +
                 "producent: " + getProducent() +

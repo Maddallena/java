@@ -12,6 +12,8 @@ public class Student extends Osoba{
     public String getKierunek() {
         return kierunek;
     }
+
+    @Override
     public String toString(){
         return "Student: " + getNazwisko() + " rok urodzenia: " + getRokUrodzenia() + " kierunek: " + kierunek;
     }

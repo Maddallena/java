@@ -13,6 +13,7 @@ public class Skrzypce extends Instrument {
         return "Dźwięk skrzypiec.";
     }
 
+    @Override
     public String toString(){
         return "Skrzypce: " +
                 "producent: " + getProducent() +

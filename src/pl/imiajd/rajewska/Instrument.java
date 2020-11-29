@@ -22,6 +22,7 @@ public abstract class Instrument {
 
     public abstract String dzwiek();
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -30,7 +31,7 @@ public abstract class Instrument {
                 Objects.equals(rokProdukcji, that.rokProdukcji);
     }
 
-
+    @Override
     public abstract String toString();
 
 }
